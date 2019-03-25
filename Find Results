@@ -1,0 +1,112 @@
+Searching 93 files for "forEach"
+
+/Users/thomasdefelice/coding/JavaScript30/01 - JavaScript Drum Kit/index-FINISHED.html:
+   75  
+   76    const keys = Array.from(document.querySelectorAll('.key'));
+   77:   keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+   78    window.addEventListener('keydown', playSound);
+   79  </script>
+
+/Users/thomasdefelice/coding/JavaScript30/03 - CSS Variables/index-FINISHED.html:
+   68      }
+   69  
+   70:     inputs.forEach(input => input.addEventListener('change', handleUpdate));
+   71:     inputs.forEach(input => input.addEventListener('mousemove', handleUpdate));
+   72    </script>
+   73  
+
+/Users/thomasdefelice/coding/JavaScript30/05 - Flex Panel Gallery/index-FINISHED.html:
+  133      }
+  134  
+  135:     panels.forEach(panel => panel.addEventListener('click', toggleOpen));
+  136:     panels.forEach(panel => panel.addEventListener('transitionend', toggleActive));
+  137    </script>
+  138  
+
+/Users/thomasdefelice/coding/JavaScript30/09 - Dev Tools Domination/index-FINISHED.html:
+   51  
+   52      // Grouping together
+   53:     dogs.forEach(dog => {
+   54        console.groupCollapsed(`${dog.name}`);
+   55        console.log(`This is ${dog.name}`);
+
+/Users/thomasdefelice/coding/JavaScript30/10 - Hold Shift and Check Checkboxes/index-FINISHED.html:
+  111      // go ahead and do what we please
+  112      // loop over every single checkbox
+  113:     checkboxes.forEach(checkbox => {
+  114        console.log(checkbox);
+  115        if (checkbox === this || checkbox === lastChecked) {
+  ...
+  127  }
+  128  
+  129: checkboxes.forEach(checkbox => checkbox.addEventListener('click', handleCheck));
+  130  </script>
+  131  </body>
+
+/Users/thomasdefelice/coding/JavaScript30/11 - Custom Video Player/scripts-FINISHED.js:
+   45  
+   46  toggle.addEventListener('click', togglePlay);
+   47: skipButtons.forEach(button => button.addEventListener('click', skip));
+   48: ranges.forEach(range => range.addEventListener('change', handleRangeUpdate));
+   49: ranges.forEach(range => range.addEventListener('mousemove', handleRangeUpdate));
+   50  
+   51  let mousedown = false;
+
+/Users/thomasdefelice/coding/JavaScript30/13 - Slide in on Scroll/index-FINISHED.html:
+   62  
+   63      function checkSlide() {
+   64:       sliderImages.forEach(sliderImage => {
+   65          // half way through the image
+   66          const slideInAt = (window.scrollY + window.innerHeight) - sliderImage.height / 2;
+
+/Users/thomasdefelice/coding/JavaScript30/19 - Webcam Fun/scripts-FINISHED.js:
+   74    const levels = {};
+   75  
+   76:   document.querySelectorAll('.rgb input').forEach((input) => {
+   77      levels[input.name] = input.value;
+   78    });
+
+/Users/thomasdefelice/coding/JavaScript30/22 - Follow Along Link Highlighter/index-FINISHED.html:
+   48    }
+   49  
+   50:   triggers.forEach(a => a.addEventListener('mouseenter', highlightLink));
+   51  
+   52  </script>
+
+/Users/thomasdefelice/coding/JavaScript30/23 - Speech Synthesis/index-FINISHED.html:
+   66    speechSynthesis.addEventListener('voiceschanged', populateVoices);
+   67    voicesDropdown.addEventListener('change', setVoice);
+   68:   options.forEach(option => option.addEventListener('change', setOption));
+   69    speakButton.addEventListener('click', toggle);
+   70    stopButton.addEventListener('click', () => toggle(false));
+
+/Users/thomasdefelice/coding/JavaScript30/25 - Event Capture, Propagation, Bubbling and Once/index-FINISHED.html:
+   49    }
+   50  
+   51:   divs.forEach(div => div.addEventListener('click', logText, {
+   52      capture: false,
+   53      once: true
+
+/Users/thomasdefelice/coding/JavaScript30/26 - Stripe Follow Along Nav/index-FINISHED.html:
+  252    }
+  253  
+  254:   triggers.forEach(trigger => trigger.addEventListener('mouseenter', handleEnter));
+  255:   triggers.forEach(trigger => trigger.addEventListener('mouseleave', handleLeave));
+  256  </script>
+  257  
+
+/Users/thomasdefelice/coding/JavaScript30/29 - Countdown Timer/scripts-FINISHED.js:
+   46  }
+   47  
+   48: buttons.forEach(button => button.addEventListener('click', startTimer));
+   49  document.customForm.addEventListener('submit', function(e) {
+   50    e.preventDefault();
+
+/Users/thomasdefelice/coding/JavaScript30/30 - Whack A Mole/index-FINISHED.html:
+   81    }
+   82  
+   83:   moles.forEach(mole => mole.addEventListener('click', bonk));
+   84  
+   85  </script>
+
+20 matches across 14 files

@@ -1,0 +1,104 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 62.5%;
+	background-color: #fdfdfd;
+}
+
+* {
+	color: #333;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	height: 50vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container div {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+h1 {
+	font-size: 3.4rem;
+	cursor: default;
+}
+
+p {
+	margin: 0;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.bubble {
+	font-size: 1rem;
+	border-radius: 100px 100px 100px 100px;
+	box-shadow: 1px 1px 10px #aaa;
+	padding: 12px 96px;
+	align-self: center;
+	cursor: default;
+}
+
+.bubble:hover {
+	box-shadow: 0 0 2px #aaa;
+}
+
+.nav-bar {
+	width: 100%;
+	padding: 24px;
+}
+
+.left a {
+	font-size: 0.75rem;
+	display: inline-block;
+	margin-right: 12px;
+}
+
+.left a:hover {
+	text-decoration: underline;
+}
+
+.pressed {
+	box-shadow: inset 2px 2px 10px #aaa;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.blue {
+	color: #4285F4;
+}
+
+.red {
+	color: #DB4437;
+}
+
+.yellow {
+	color: #F4B400; 
+}
+
+.green {
+	color: #0F9D58;
+}
+
+span {
+	transition: all 0.5s;
+}
